@@ -2,7 +2,9 @@
 #include<conio.h>
 #include<pthread.h>
 #include<unistd.h>
+
 void *thread1(void *arg);
+
 int main()
 {
 	int n;
@@ -28,11 +30,10 @@ void *thread1(void *arg)
   		{
   			i++;
   		}
- 	if(i==b)
-  	{
-		printf("%d\n",b) ;
-	}
-		
-  }
-
+ 	
+		if(i==b)
+  		{
+			printf("%d\n",b) ;
+		}	
+  	}
 }
