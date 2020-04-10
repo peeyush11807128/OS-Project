@@ -9,11 +9,10 @@ int main()
 	printf("\n Input Thread \n");
 	printf("Enter a number: ");
 	scanf("%d",&n);
-
+	
 	pthread_t th1;
 	pthread_create(&th1,NULL,thread1,&n);
-	pthread_join(th1,NULL);
-	
+	pthread_join(th1,NULL);	
 }
 void *thread1(void *arg)
 {
