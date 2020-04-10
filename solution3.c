@@ -31,7 +31,7 @@ void *thread1(void *arg)
  	if(i==b)
   	{
 		printf("%d\n",b) ;
-		}
+	}
 		
   }
 
