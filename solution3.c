@@ -23,12 +23,11 @@ void *thread1(void *arg)
 	
 	for(b=2;b<=*number;b++)
 	{
-	
- 	 i=2;
- 	while(b%i!=0)
-  	{
-  		i++;
-  	}
+ 	 	i=2;
+ 		while(b%i!=0)
+  		{
+  			i++;
+  		}
   	
  	if(i==b)
   	{
