@@ -28,7 +28,6 @@ void *thread1(void *arg)
   		{
   			i++;
   		}
-  	
  	if(i==b)
   	{
 		printf("%d\n",b) ;
